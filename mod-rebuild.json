@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "LunaticHelper",
+  "version": "1.1.1",
+  "mode": "local-rebuild",
+  "archive": {
+    "path": "LunaticHelper.zip",
+    "sha256": "b10e044b1dfa412605bee3ba6bfdd4263591099d331d6c1aab1e9ba65bf6a3e5",
+    "downloadUrl": "https://gamebanana.com/mmdl/466257",
+    "fileId": 466257
+  },
+  "originalAssembly": {
+    "entry": "LunaticHelper.dll",
+    "sha256": "fc08f00296551a6025c5e31422c6edd5e8136e6861459f44ffea909129c6a925"
+  },
+  "license": "CC-BY-NC-ND-4.0",
+  "upstream": "https://gamebanana.com/mods/53692",
+  "recipe": "Recipe/recipe.json",
+  "assemblyName": "Celeste.Mods.Lunatic",
+  "dependencies": [],
+  "decompileTypes": [
+    {
+      "name": "LunaticHelper.BubbleReturnBerry",
+      "path": "LunaticHelper/BubbleReturnBerry.cs",
+      "sha256": "8c8510528f203b4ffaef7afe7ccc93db26c30bcc7a81fad271b05ed47598fc52"
+    },
+    {
+      "name": "LunaticHelper.ColorHelper",
+      "path": "LunaticHelper/ColorHelper.cs",
+      "sha256": "c31440bdb2d19d7c12ee4b1c3198d7d2fd4959aec46ab9f0bc48c77f7d310dec"
+    },
+    {
+      "name": "LunaticHelper.CustomDust",
+      "path": "LunaticHelper/CustomDust.cs",
+      "sha256": "355c1e3398b90183c400199dbb33a7ad379eed38cc7aebae0f6952714200afb5"
+    },
+    {
+      "name": "LunaticHelper.CustomField",
+      "path": "LunaticHelper/CustomField.cs",
+      "sha256": "1ab11d3e997af0bedebd63460901858aa1a01c3cab9922ff80e0a0a25d5a3443"
+    },
+    {
+      "name": "LunaticHelper.CustomRefill",
+      "path": "LunaticHelper/CustomRefill.cs",
+      "sha256": "27aa6c70af67a9cac7841782f0dc7509c1b9620eff53b31909adb5a5b5a933b7"
+    },
+    {
+      "name": "LunaticHelper.InvisibleLightSource",
+      "path": "LunaticHelper/InvisibleLightSource.cs",
+      "sha256": "f6579167d3e58d632a9d631ea3a7774c16ae94d93635d7d12cd09523406c8b66"
+    },
+    {
+      "name": "LunaticHelper.LunaticModule",
+      "path": "LunaticHelper/LunaticModule.cs",
+      "sha256": "4d863f91314991e732db3b7ce55ab51fca66f19b3fa80058da8d539af6481ed4"
+    },
+    {
+      "name": "LunaticHelper.StrawberryGate",
+      "path": "LunaticHelper/StrawberryGate.cs",
+      "sha256": "3ce40c715df075c03a7bbf1b7f918c4aeab0a1c8cb79c15dfbcaa3716b84da57"
+    }
+  ]
+}
